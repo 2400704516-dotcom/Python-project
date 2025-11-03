@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(131, 118, 100);
+}
+header{
+    text-align: center;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+H2, h1{
+    color: rgb(10, 12, 129);
+    text-align: center;
+}
+.banner img{
+    width:100%;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.words{
+    text-align: center;
+}
+.pics{
+    display: flex;
+}
+.pics div{
+    width: 35%;
+}
+.pics img{
+    width: 98%;
+    height: 300px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.pics p{
+    text-align: center;
+    color: cadetblue;
+}
+.title {
+    text-align: center;
+}
+.last{
+    padding: 10px;
+}
+footer,footer h3, footer p{
+    background: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

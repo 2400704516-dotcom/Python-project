@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1, h2{
+    color: rgb(42, 7, 199);
+    text-align: center;
+}
+
+.words{
+    text-align: center;
+}
+
+footer,footer h3, footer p{
+    background: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
